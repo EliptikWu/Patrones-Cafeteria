@@ -1,5 +1,6 @@
 package state;
 
+// Estado final: El pedido ha sido entregado
 public class EntregadoState implements EstadoPedido {
     @Override
     public void siguienteEstado(Pedido pedido) {

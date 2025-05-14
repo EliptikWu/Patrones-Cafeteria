@@ -1,5 +1,6 @@
 package state;
 
+// Estado donde el pedido está siendo preparado
 public class PreparacionState implements EstadoPedido {
     @Override
     public void siguienteEstado(Pedido pedido) {
