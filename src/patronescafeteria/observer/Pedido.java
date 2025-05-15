@@ -1,3 +1,7 @@
+package patronescafeteria.observer;
+
+import patronescafeteria.observer.Observador;
+
 import java.util.ArrayList;
 import java.util.List;
 

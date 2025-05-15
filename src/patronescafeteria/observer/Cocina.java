@@ -1,3 +1,5 @@
+package patronescafeteria.observer;
+
 // Clase Cocina: Observador
 public class Cocina implements Observador {
     @Override

@@ -1,6 +1,8 @@
+package patronescafeteria.mediator;
+
 import java.util.ArrayList;
 import java.util.List;
-class MediadorPedidos implements Mediator {
+public class MediadorPedidos implements Mediator {
     private List<Colaborador> colaboradores;
 
     public MediadorPedidos() {

@@ -1,4 +1,4 @@
-package state;
+package patronescafeteria.state;
 
 // Estado donde el pedido está siendo preparado
 public class PreparacionState implements EstadoPedido {

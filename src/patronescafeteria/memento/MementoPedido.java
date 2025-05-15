@@ -1,3 +1,5 @@
+package patronescafeteria.memento;
+
 public class MementoPedido {
     private final String estado;
 

@@ -1,3 +1,5 @@
+package patronescafeteria.mediator;
+
 public class MediatorPattern {
     public static void main(String[] args) {
         MediadorPedidos mediador = new MediadorPedidos();

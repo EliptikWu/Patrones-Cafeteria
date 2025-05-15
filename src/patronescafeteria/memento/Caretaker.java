@@ -1,3 +1,7 @@
+package patronescafeteria.memento;
+
+import patronescafeteria.memento.MementoPedido;
+
 import java.util.Stack;
 
 public class Caretaker {

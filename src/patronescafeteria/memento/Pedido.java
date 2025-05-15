@@ -1,3 +1,7 @@
+package patronescafeteria.memento;
+
+import patronescafeteria.memento.MementoPedido;
+
 public class Pedido {
     private String estado;
 

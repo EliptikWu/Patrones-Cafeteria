@@ -1,4 +1,4 @@
-package state;
+package patronescafeteria.state;
 
 // Estado final: El pedido ha sido entregado
 public class EntregadoState implements EstadoPedido {

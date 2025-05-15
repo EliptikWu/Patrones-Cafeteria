@@ -1,3 +1,7 @@
+package patronescafeteria.observer;
+
+import patronescafeteria.observer.Observador;
+
 // Clase Cliente: Observador
 public class Cliente implements Observador {
     private String nombre;

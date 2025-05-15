@@ -1,4 +1,4 @@
-package state;
+package patronescafeteria.state;
 
 // Clase que representa el contexto del pedido
 public class Pedido {

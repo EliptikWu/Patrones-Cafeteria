@@ -1,3 +1,5 @@
+package patronescafeteria.mediator;
+
 abstract class Colaborador {
     protected Mediator mediator;
 

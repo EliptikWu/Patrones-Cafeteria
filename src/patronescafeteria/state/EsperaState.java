@@ -1,4 +1,4 @@
-package state;
+package patronescafeteria.state;
 
 // Estado inicial: El pedido está en espera
 public class EsperaState implements EstadoPedido {

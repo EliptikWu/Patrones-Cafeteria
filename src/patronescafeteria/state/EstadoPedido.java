@@ -1,4 +1,4 @@
-package state;
+package patronescafeteria.state;
 
 // Interfaz que define los métodos que deben implementar los estados del pedido
 public interface EstadoPedido {
