@@ -2,12 +2,9 @@ package patronescafeteria.mediator;
 
 import java.util.ArrayList;
 import java.util.List;
-public class MediadorPedidos implements Mediator {
-    private List<Colaborador> colaboradores;
 
-    public MediadorPedidos() {
-        this.colaboradores = new ArrayList<>();
-    }
+public class MediadorPedidos implements Mediator {
+    private final List<Colaborador> colaboradores = new ArrayList<>();
 
     public void registrarColaborador(Colaborador colaborador) {
         colaboradores.add(colaborador);
@@ -16,9 +13,9 @@ public class MediadorPedidos implements Mediator {
 
     @Override
     public void enviarMensaje(String mensaje, Colaborador remitente) {
-        for (Colaborador colaborador : colaboradores) {
-            if (colaborador != remitente) {
-                colaborador.recibirMensaje(mensaje);
+        for (Colaborador c : colaboradores) {
+            if (c != remitente) {
+                c.recibirMensaje(mensaje);
             }
         }
     }

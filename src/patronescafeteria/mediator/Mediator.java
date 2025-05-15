@@ -1,5 +1,5 @@
 package patronescafeteria.mediator;
 
-interface Mediator {
-    void enviarMensaje(String mensaje, Colaborador colaborador);
+public interface Mediator {
+    void enviarMensaje(String mensaje, Colaborador remitente);
 }

@@ -1,6 +1,6 @@
 package patronescafeteria.mediator;
 
-abstract class Colaborador {
+public abstract class Colaborador {
     protected Mediator mediator;
 
     public void setMediator(Mediator mediator) {
@@ -8,7 +8,5 @@ abstract class Colaborador {
     }
 
     public abstract void recibirMensaje(String mensaje);
-
     public abstract void enviarMensaje(String mensaje);
 }
-
